@@ -1,0 +1,4 @@
+def pad_sequence(seq, max_len):
+    if len(seq) >= max_len:
+        return seq[:max_len]
+    return seq + [0] * (max_len - len(seq))
