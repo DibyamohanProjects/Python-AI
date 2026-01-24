@@ -1,0 +1,13 @@
+# Ignore models & data
+models/
+data/
+__pycache__/
+*.pyc
+*.h5
+*.png
+*.py[cod]
+*.pyo
+*.pyd
+# Virtual environment
+venv/
+.env
